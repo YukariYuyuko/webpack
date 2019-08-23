@@ -30,11 +30,19 @@
                 zl:"学习"
             },
     ];
-    // new Vue({
+    export default{
+        data:function(){
+            return shoplist  
+        },
+        methods:{
+            add(){
+                this.shoplist
+            }
 
-    // })
 
+        }
 
+    }
 
 
 </script>
